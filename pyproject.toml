@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ci-why"
-version = "0.1.0"
+version = "0.1.1"
 description = "Diagnose CI failures instantly — extract signal lines and explain them in plain English"
 readme = "README.md"
 license = { text = "MIT" }
