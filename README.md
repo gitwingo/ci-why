@@ -135,20 +135,6 @@ ci-why build.log --no-ai --raw || echo "Failures detected"
 
 ---
 
-## Where to install / publish this tool
-
-| Platform | Command | Notes |
-|---|---|---|
-| **PyPI** | `pip install ci-why` | Primary distribution |
-| **pipx** | `pipx install ci-why` | Best for CLI tools — isolated environment |
-| **Homebrew** (tap) | `brew install gitwingo/tap/ci-why` | macOS/Linux users who avoid pip |
-| **GitHub Releases** | Single `.py` file download | Zero-install option |
-| **npm wrapper** | `npm install -g ci-why` | Reaches frontend/Node developers |
-
-> **Recommended publishing order:** PyPI → pipx (works automatically) → Homebrew tap after traction → npm wrapper if Node developer adoption is strong.
-
----
-
 ## Development
 
 ```bash
